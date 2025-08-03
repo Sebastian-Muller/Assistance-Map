@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; 
+    background-color: #D91E02;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+
+body {
+    padding-top: 40px; /* igual al alto del nav */
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+
+#MawdyLogo {
+height: 100%;
+}
+
+#map {
+  width: 70%;
+  height: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+
+}
+
+
+#sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+    padding-top: 40px;
+  background: #f4f4f4;
+}
+
+input {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 6px;
+  margin-top: 5px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e74d3;
+}
+
+#auxilios {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.auxilio {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestions div:hover {
+  background-color: #1e90ff;
+  color: white;
+}
